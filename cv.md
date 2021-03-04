@@ -15,3 +15,17 @@ Programming Languages:
 - HTML basic
 - CSS basic
 - JS basic
+
+### Code example
+
+```
+ function hideTabContent() {
+        tabsContent.forEach(item => {
+            item.classList.add('hide');
+            item.classList.remove('show', 'fade')
+        });
+        tabs.forEach(item => {
+            item.classList.remove('tabheader__item_active');
+        })
+    }
+```
