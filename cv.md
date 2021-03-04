@@ -7,3 +7,11 @@
 ### Summary
 
       I want to learn JS and React to work as a freelance programmer.
+
+### Skills
+
+Programming Languages:
+
+- HTML basic
+- CSS basic
+- JS basic
