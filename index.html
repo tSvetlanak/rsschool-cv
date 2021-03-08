@@ -10,41 +10,56 @@
 </head>
 
 <body>
-    <div class="content">
-        <header class="header">
-            <img src="im2.jpg" alt="my foto">
-            <h1 class="fullname"> Svetlana Kurbacheva </h1>
-        </header>
-
-        <div class="fullinfo">
-            <ul>
-                <li> Full name: <b>Курбачева Светлана Александровна </b></li>
-                <li> Email: svetlana.a.k.15@mail.ru</li>
-                <li>Mobile phone:
-                    <i>+375-29-224-17-01 </i>
-                </li>
+    <header class="header">
+        <a href="https://rs.school/js/">
+            <div>
+                <img src="img/rs_school_js.svg" class="footer__svg" alt="rsschool">
+                <span class="footer__year">2021</span>
+            </div>
+        </a>
+        <nav>
+            <ul class="nav__list">
+                <li><a href="#navaboutus">about</a></li>
+                <li><a href="#expirience">experience</a></li>
+                <li><a href="#education">education</a></li>
             </ul>
-        </div>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="content">
+            <div class="main-screen" id="navaboutus">
+                <div class="main-screen__foto">
+                    <img src="img/images.jpg" alt="my foto">
+                </div>
+                <div class="main-screen__about">
+                    <h1 class="fullname main-screen__title"> Svetlana Kurbacheva </h1>
+                    <div class="main-screen__contact">
+                        <a href="tel:+375-29-224-17-01" class="myCont-contacts">+375(29)2241701</a>
+                        <a href="mailto:svetlana.a.k.15@mail.ru" class="myCont-contacts">svetlana.a.k.15@mail.ru</a>
+                        <a href="https://github.com/tSvetlanak" target="_blank" class="myCont-contacts">github</a>
+                        <a href="skype:+375-29-224-17-01?call" class="myCont-contacts">skype</a>
+                    </div>
+                </div>
+            </div>
+            <section class="skills">
+                <h3> Summary </h3>
+                <p class="skills__p">
+                    I want to learn JS, React and Node to work as a freelance programmer.
+                </p>
+                <div class="skills__item">
+                    <div class="skills__item-languages">
+                        <h3> Skills</h3>
+                        <p class="skills__p"> Programming Languages: </p>
+                        <ul class="skills__item-lang">
+                            <li class="skills-item"> HTML basic </li>
+                            <li class="skills-item"> CSS basic</li>
+                            <li class="skills-item"> JS basic</li>
+                        </ul>
+                    </div>
+                    <div class="skills__item-code">
+                        <h3>Code example </h3>
 
-        <h3> Summary </h3>
-        <p>
-            I want to learn JS and React to work as a freelance programmer.
-        </p>
-
-        <h3> Skills</h3>
-        <p> Programming Languages: </p>
-        <ul>
-            <li> HTML basic </li>
-            <li> CSS basic</li>
-            <li> JS basic</li>
-        </ul>
-
-
-
-        <h3>Code example </h3>
-
-        <pre><code>
-        <var>
+                        <pre class="skills__item-c"><code>
       function hideTabContent() {
       tabsContent.
       forEach(item => {
@@ -54,29 +69,86 @@
       tabs.forEach(item => {
       item.classList.
       remove('tabheader__item_active');
-      }) }</var>
+      }) }
           </code></pre>
-
-        <h3> Experience </h3>
-        <ul>
-            <li><a href="https://tSvetlanak.github.io">My first site</a></li>
-            <li><a href="http://tSvetlanak.github.io/singolo/">singolo</a></li>
-            <li><a href="https://tsvetlanak-virtual-keyboard.netlify.app">virtual-keyboard</a></li>
-            <li><a href="https://tsvetlanak-momentum.netlify.app">momentum</a></li>
-            <li><a href="https://tsvetlanak-gem-puzzle.netlify.app">gem-puzzle</a></li>
-            <li><a href="https://tsvetlanak-english-for-kids.netlify.app/#!">english-for-kids</a></li>
-            <li><a href="https://bicycletheme.netlify.app/#!">bicycletheme</a></li>
-        </ul>
-
-        <h3> Education </h3>
-        <ul>
-            <li>In 1986, I graduated from BSU Mehmat </li>
-            <li>In 1990 graduated from the courses of programmers</li>
-        </ul>
-
-        <h3> English level: </h3>
-        <p> beginner </p>
-    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="expirience" id="expirience">
+                <h3> Experience </h3>
+                <div class=wrapper>
+                    <ul class="expirience__list">
+                        <li>
+                            <a href="https://tSvetlanak.github.io" target="_blank">
+                                <img src="img/ghost.jpg" alt="ghost">
+                                <span> My first site</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://tSvetlanak.github.io/singolo/" target="_blank">
+                                <img src="img/singolo.jpg" alt="singolo">
+                                <span>singolo</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tsvetlanak-virtual-keyboard.netlify.app" target="_blank">
+                                <img src="img/virtKeyboard.jpg" alt="keyboard">
+                                <span>virtual-keyboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tsvetlanak-momentum.netlify.app" target="_blank">
+                                <img src="img/momentum.jpg" alt="momentum">
+                                <span>momentum</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tsvetlanak-gem-puzzle.netlify.app" target="_blank">
+                                <img src="img/gempuzzle.jpg" alt="gem-puzzle">
+                                <span>gem-puzzle</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://tsvetlanak-english-for-kids.netlify.app/#!" target="_blank">
+                                <img src="img/english.jpg" alt="english-for-kids">
+                                <span>english-for-kids</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://bicycletheme.netlify.app/#!" target="_blank">
+                                <img src="img/bicycle.jpg" alt="bicycletheme">
+                                <span>bicycletheme</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="education" id="education">
+                <div class="education__item">
+                    <h3> Education </h3>
+                    <ul class="education__item-list">
+                        <li>In 1986, I graduated from BSU Mehmat </li>
+                        <li>In 1990 graduated from the courses of programmers</li>
+                    </ul>
+                </div>
+                <div class="education__item-englishlevel">
+                    <h3> English level: </h3>
+                    <p class="skills__p"> beginner </p>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a href="https://rs.school/js/">
+            <div>
+                <img src="img/rs_school_js.svg" class="footer__svg" alt="rsschool">
+                <span class="footer__year">2021</span>
+            </div>
+        </a>
+        <!--   <a href="tel:+375-29-224-17-01" class="myCont-contacts">+375(29)2241701</a>
+        <a href="mailto:svetlana.a.k.15@mail.ru" class="myCont-contacts">svetlana.a.k.15@mail.ru</a> -->
+        <a href="https://github.com/tSvetlanak" target="_blank" class="footer__github">github</a>
+    </footer>
 </body>
 
 </html>
